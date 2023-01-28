@@ -1,0 +1,112 @@
+body{
+  /* From https://css.glass */
+background: rgba(232, 72, 81, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.3px);
+-webkit-backdrop-filter: blur(11.3px);
+border: 1px solid rgba(232, 72, 81, 0.3);
+display: flex;
+justify-content: center;
+min-height: 100vh;
+}
+
+.container{
+     
+     width:700px;
+     background: rgba(232, 93, 93, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(17.3px);
+-webkit-backdrop-filter: blur(17.3px);
+border: 1px solid rgba(232, 93, 93, 0.3);
+min-height:500px;
+height:auto;
+
+padding:10px;
+
+}
+
+
+
+
+
+.list{
+   margin-top:20px;
+    width:100%;
+    border:1px solid #ccc;
+    border-radius:10px;
+   
+    
+}
+
+
+.list-item{
+    border-bottom:1px 1px solid #ccc;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:10px;
+    align-items: center;
+
+}
+
+input[type=text] {
+
+    width:300px;
+    border:1px solid #ccc;
+    height:30px;
+    border-radius: 5px;
+}
+
+.btnAddToDo{
+    width: 150px;
+    margin-left: 5px;
+    height: 35px;
+    font-weight: bold;
+    /* From https://css.glass */
+    background: rgba(232, 177, 72, 1);
+    border-radius: 5px;
+   
+    backdrop-filter: blur(17.3px);
+    -webkit-backdrop-filter: blur(17.3px);
+    border: 1px solid rgba(232, 177, 72, 0.3);
+    padding:2px;
+}
+
+.todoitem{
+    width:70%;
+
+}
+
+.btn{
+border: 1px solid #ccc;
+border-radius: 5px;
+width:150px;
+height:35px;
+padding:10px;
+margin:2px;
+}
+
+.btnCompleted{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:150px;
+    height:35px;
+    padding:10px;
+    margin:2px;
+    background-color: green;
+    color:#ccc;
+}
+
+.stackthrough{
+
+    text-decoration: line-through;
+    color:aquamarine;
+}
+
+.quoteColor{
+    color:#ffffff;
+}
+
